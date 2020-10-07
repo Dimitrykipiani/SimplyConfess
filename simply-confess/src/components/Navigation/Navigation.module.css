@@ -1,0 +1,11 @@
+.Navigation{
+    width: 100%;
+}
+
+.UL{
+    list-style: none;
+    color: black;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+}

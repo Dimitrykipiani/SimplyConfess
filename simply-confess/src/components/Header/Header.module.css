@@ -1,0 +1,9 @@
+.Header{
+    text-align: center;
+    color: red;
+    height: 50px;
+    display: flex;
+    flex-flow: row;    
+    background-color: purple;
+    padding: 10px 5px;
+}
