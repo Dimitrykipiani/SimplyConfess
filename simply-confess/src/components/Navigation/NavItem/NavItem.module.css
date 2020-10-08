@@ -4,13 +4,13 @@
     margin: auto 30px auto 0;
     font-family: 'Mtavruli';
     box-sizing: border-box;
-    padding-bottom: 7px;
+    padding-bottom: 7px;    
 }
 
 .NavItem:hover,
 .NavItem:active
 {
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #f78888;
 }
 
 .NavItem:focus{

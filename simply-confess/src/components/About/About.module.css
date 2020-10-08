@@ -1,0 +1,9 @@
+.About{
+    margin: 30px auto;
+    width: 80%;
+    background-color: #90ccf4;
+    font-family: 'BPG-Arial';
+    padding: 15px 30px;
+    box-sizing: border-box;
+    border-radius: 5px;    
+}

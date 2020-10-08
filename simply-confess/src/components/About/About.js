@@ -1,9 +1,10 @@
+import classes from './About.module.css';
 import React from 'react';
 
 const About = () => {
     return ( 
-        <div>
-            <h1>About Page</h1>
+        <div className={classes.About}>
+            <p>აქ განთავსდება ინფორმაცია საიტის შესახებ</p>
         </div>
      );
 }

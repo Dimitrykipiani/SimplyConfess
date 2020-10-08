@@ -1,9 +1,11 @@
 import React from 'react';
 
+import classes from './Privacy.module.css';
+
 const Privacy = () => {
     return ( 
         <div>
-            <h1>ivacy Page</h1>
+            <p className={classes.Privacy}>აქ განთავსდება ინფორმაცია ანონიმურობის შესახებ</p>
         </div>
      );
 }

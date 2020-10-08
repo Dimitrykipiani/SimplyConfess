@@ -8,6 +8,7 @@ import Home from '../src/components/Home/Home';
 import About from '../src/components/About/About';
 import Privacy from '../src/components/Privacy/Privacy';
 import Contact from '../src/components/Contact/Contact';
+import CreateStory from '../src/components/CreateStory/CreateStory';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route exact path="/about" component={About} />
           <Route exact path="/privacy" component={Privacy} />
           <Route exact path="/contact" component={Contact} />
+          <Route exact path="/yourstory" component={CreateStory} />
         </Switch>
       </Layout>      
     </div>

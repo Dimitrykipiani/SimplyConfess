@@ -11,7 +11,7 @@ const Navigation = () => {
                 <NavItem link="/about"> საიტის შესახებ </NavItem>
                 <NavItem link="/privacy"> ანონიმურობა </NavItem>
                 <NavItem link="/contact"> კონტაქტი </NavItem>
-                <NavItem submit={true} link="/submit"> შენი ამბავი </NavItem>
+                <NavItem submit={true} link="/yourstory"> შენი ამბავი </NavItem>
             </ul>
         </nav>
     )

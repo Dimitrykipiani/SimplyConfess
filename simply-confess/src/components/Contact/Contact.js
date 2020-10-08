@@ -1,9 +1,11 @@
 import React from 'react';
 
+import classes from './Contact.module.css';
+
 const Contact = () => {
     return ( 
-        <div>
-            <h1>Contact Page</h1>
+        <div className={classes.Contact}>
+            <p>აქ განთავსდება საკონტაქტო ინფორმაცია...</p>
         </div>
      );
 }
