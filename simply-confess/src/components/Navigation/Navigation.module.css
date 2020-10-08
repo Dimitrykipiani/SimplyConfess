@@ -1,10 +1,9 @@
-.Navigation{
-    width: 100%;
+.Navigation{    
+        
 }
 
 .UL{
-    list-style: none;
-    color: black;
+    list-style: none;    
     display: flex;
     flex-flow: row;
     justify-content: flex-start;

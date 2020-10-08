@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom'
 const NavItem = (props) => {
     return (
         <li>
-            <NavLink to={props.link} className={classes.NavItem}>
+            <NavLink to={props.link} activeClassName={classes.Active} className={props.submit ? classes.SubmitItem : classes.NavItem}>
                 {props.children}
             </NavLink>
         </li>

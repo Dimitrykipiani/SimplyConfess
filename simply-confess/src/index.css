@@ -4,10 +4,20 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale;  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face {
+  font-family: 'Bpg-Arial';
+  src: local('Bpg Arial'), url('../src//resources/fonts/bpg_arial.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Mtavruli';
+  src: local('Mtavruli'), url('../src//resources/fonts/bpg_mtavruli.ttf') format('truetype');
 }
