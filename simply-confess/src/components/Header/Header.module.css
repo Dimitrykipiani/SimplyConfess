@@ -4,6 +4,7 @@
     height: 50px;
     display: flex;
     flex-flow: row;    
-    background-color: purple;
-    padding: 10px 5px;
+    justify-content: stretch;
+    background-color: #ececec;
+    padding: 10px 15px;    
 }
