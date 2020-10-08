@@ -1,0 +1,37 @@
+.NavItem{
+    color: #000;
+    text-decoration: none;
+    margin: auto 30px auto 0;
+    font-family: 'Mtavruli';
+    box-sizing: border-box;
+    padding-bottom: 7px;
+}
+
+.NavItem:hover,
+.NavItem:active
+{
+    border-bottom: 2px solid black;
+}
+
+.NavItem:focus{
+    border-bottom: 2px solid #f78888;
+}
+
+.SubmitItem{
+    padding: 10px 10px;
+    color: #f3d250;
+    border-radius: 5px;
+    background-color: #f78888;
+    text-decoration: none;
+    margin: auto 30px auto 0;
+    font-family: 'Mtavruli';    
+}
+
+.SubmitItem:hover{    
+    background-color: #5da2d5;  
+    border-bottom: none;      
+}
+
+.Active{
+    border-bottom: 2px solid #f78888;
+}
